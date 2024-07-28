@@ -1,9 +1,10 @@
-class iphoneImpl implements iphone {
+class iPhoneImpl implements iPhone {
+    
     private ReprodutorMusical reprodutorMusical;
     private AparelhoTelefonico aparelhoTelefonico;
     private NavegadorInternet navegadorInternet;
 
-    public iphoneImpl() {
+    public iPhoneImpl() {
         this.reprodutorMusical = new ReprodutorMusical();
         this.aparelhoTelefonico = new AparelhoTelefonico();
         this.navegadorInternet = new NavegadorInternet();
